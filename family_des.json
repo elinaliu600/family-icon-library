@@ -1,0 +1,3347 @@
+{
+  "1": {
+    "name-cn": "银环蛇",
+    "name-en": "Bungarus multicinctus",
+    "des-cn": [
+      "该诈骗家族主要高度依赖DCloud公司的UniApp多端开发框架。",
+      "其主要业务逻辑通过JavaScript开发，不仅开发成本低，还能够有效避开传统检测工具的侦测。",
+      "启动后，这些应用程序直接加载由Uni框架开发的页面，并连接至指定服务器。",
+      "其应用包名统一采用\"uni.UNI\"加\"UNI_APP_ID\"的命名形式。"
+    ],
+    "des-en": [
+      "This fraud family heavily relies on DCloud's UniApp multi-platform development framework.",
+      "The main business logic is developed in JavaScript, which not only reduces development costs but also effectively evades traditional detection tools.",
+      "Upon startup, these applications directly load pages developed with the Uni framework and connect to specified servers.",
+      "The app package names uniformly follow the format \"uni.UNI\" + \"UNI_APP_ID\"."
+    ]
+  },
+  "2": {
+    "name-cn": "树蚺",
+    "name-en": "BOOMSLANG",
+    "des-cn": [
+      "该诈骗家族主要以开源的Telegram Android源代码作为其欺诈行为的核心功能模板。该应用可能包括但不限于刷单、色情内容传播、投资诈骗等功能。",
+      "该家族通常的做法是从阿里云oss地址中解密目标IP地址和端口，然后利用阿里游戏盾持续获取目标IP的代理IP，以实现动态通讯通道，绕过封堵。",
+      "这些应用的包名通常以\"im\"开头，以\"messenger\"结尾，中间包含一串随机字符。"
+    ],
+    "des-en": [
+      "This fraud family mainly uses the open-source Telegram Android code as the core functional template for its fraudulent activities. The app may include features such as order fraud, pornography distribution, and investment scams.",
+      "The usual method is to decrypt the target IP address and port from an Alibaba Cloud OSS address, then use Alibaba Game Shield to continuously obtain proxy IPs for dynamic communication channels to evade blocking.",
+      "The app package names usually start with \"im\" and end with \"messenger\", with a string of random characters in between."
+    ]
+  },
+  "3": {
+    "name-cn": "美杜莎",
+    "name-en": "Medusa",
+    "des-cn": [
+      "该家族集成了网易的IM服务产品云信SDK。",
+      "通过查询云信SDK中内置的DoH服务器，获得不断变化的域名。以此实现封堵逃逸。",
+      "该家族集成了微信开放平台SDK，支持微信登录，并实现与封装后的云信IM进行信息交换。"
+    ],
+    "des-en": [
+      "This family integrates NetEase's Yunxin SDK for IM services.",
+      "By querying the DoH servers built into the Yunxin SDK, they obtain constantly changing domain names, thus achieving evasion of blocking.",
+      "The applications of this family integrate the WeChat Open Platform SDK, supports WeChat login, and facilitates information exchange with the encapsulated Yunxin IM."
+    ]
+  },
+  "4": {
+    "name-cn": "树蟒",
+    "name-en": "Morelia",
+    "des-cn": [
+      "该家族的应用程序相似度非常高，均使用腾讯的壳来对抗静态检测，同时采用字符串混淆来隐藏一些关键信息。",
+      "这些应用程序都集成了首信易支付公司的支付SDK PayEase。",
+      "一般伪装成投资项目之类的应用。",
+      "启动后，访问硬编码的亚马逊oss静态文件地址，读取其中配置的IP地址，连接至远程服务器。"
+    ],
+    "des-en": [
+      "The applications of this family are highly similar, all using Tencent shell to counter static detection and using string obfuscation to hide key information.",
+      "These applications integrate PayEase, the payment SDK from SurePay.",
+      "They typically masquerade as investment-related applications.",
+      "Upon startup, they access hardcoded Amazon OSS static url to read the configured IP address and connect to a remote server."
+    ]
+  },
+  "5": {
+    "name-cn": "眼镜蛇",
+    "name-en": "NAJA",
+    "des-cn": [
+      "该家族的APK安装包非常小，通常约为3.7MB左右。",
+      "这些应用程序实现非常简单，集成了著名的文件下载器com.liulishuo.filedownloader。",
+      "应用程序的运行方式是启动后，用Android系统内置的WebView加载一个远程网址。",
+      "包名统一采用\"com.xoox.appi\"加11位16进制随机数。"
+    ],
+    "des-en": [
+      "The APK packages of this family are very small, typically around 3.7MB.",
+      "These applications are very simple, integrating the well-known file downloader com.liulishuo.filedownloader.",
+      "Upon startup, the application uses the Android built-in WebView to load a remote URL.",
+      "The package names uniformly follow the format \"com.xoox.appi\" plus an 11-digit hexadecimal random number."
+    ]
+  },
+  "6": {
+    "name-cn": "蓝环章鱼",
+    "name-en": "Blue-Ringed Octopus",
+    "des-cn": [
+      "该家族的APK安装包约为30MB左右，通常采用腾讯的壳来对抗静态检测。",
+      "这些应用程序硬编码了阿里云和腾讯云的OSS文件地址。",
+      "应用程序启动后，通过访问OSS文件地址，解密文件内容，获取远程服务器地址。",
+      "包名由三组随机字符组成，每组包含6个随机字符，例如：feaedf.afeihg.ibbafh。"
+    ],
+    "des-en": [
+      "The APK packages of this family are around 30MB, typically using Tencent shell to counter static detection.",
+      "These applications hardcode Alibaba Cloud and Tencent Cloud OSS file addresses.",
+      "Upon startup, the application accesses OSS file address to decrypt the contents and obtain remote server addresses.",
+      "The package names consist of three groups of random characters, each containing 6 characters, e.g., feaedf.afeihg.ibbafh."
+    ]
+  },
+  "7": {
+    "name-cn": "箱水母",
+    "name-en": "Chironex fleckeri",
+    "des-cn": [
+      "该家族的APK安装包相对较小，约为7MB左右。",
+      "实现非常简单，应用启动后，通过Android系统内置的WebView加载一个网络聊天室。",
+      "聊天室的网址硬编码在代码中，静态检测可发现。",
+      "包名统一采用com.android.ruiying加上一个11位的伪随机数，例如：com.android.ruiying_02270457451。0227疑似代表日期。"
+    ],
+    "des-en": [
+      "The APK packages of this family are relatively small, about 7MB.",
+      "The application implementation is very simple. Upon startup, the application uses the Android built-in WebView to load an online chatroom.",
+      "The chatroom URL is hardcoded in the code, detectable by static analysis.",
+      "The package names uniformly follow the format com.android.ruiying plus an 11-digit pseudo-random number, e.g., com.android.ruiying_02270457451. The number 0227 is suspected to represent a date."
+    ]
+  },
+  "8": {
+    "name-cn": "赤背蛛",
+    "name-en": "Latrodectus hasselti",
+    "des-cn": [
+      "该家族APK安装包非常小，通常约为1.6MB左右。",
+      "实现非常简单，只包含一个Android系统组件Activity，启动后通过Android内置WebView加载一个网页。",
+      "网页地址硬编码在资源文件assets下的配置文件中。",
+      "包名规则明显，统一采用com.example开头，后面跟两个相同的四位随机字符字符串。"
+    ],
+    "des-en": [
+      "The APK packages of this family are very small, typically around 1.6MB.",
+      "The application implementation is very simple, consisting of a single Android Activity component that loads a webpage upon startup using the built-in WebView.",
+      "The webpage URL is hardcoded in a configuration file under assets.",
+      "The package names uniformly start with com.example, followed by two identical four-character random strings."
+    ]
+  },
+  "9": {
+    "name-cn": "布谷鸟",
+    "name-en": "Cuckoo",
+    "des-cn": [
+      "该诈骗APP家族主要基于Farsunset的商业通讯解决方案“布咕”的旧版Demo进行修改。其功能与微信相似。",
+      "诈骗样本的代码与官网Demo高度相似，开发者仅进行简单的修改，如替换后台服务器地址和部分UI资源。这种高度相似性使得用户难以分辨其真实身份，进而上当受骗。"
+    ],
+    "des-en": [
+      "This fraudulent app family is primarily based on an older demo version of Farsunset's commercial communication solution, 'Bugu.' Its features are similar to those of WeChat.",
+      "The code of the scam samples closely resembles the official demo, with developers only making minimal modifications, such as changing the backend server address and some UI resources. This high degree of similarity makes it difficult for users to recognize the app's true identity, leading them to fall victim to scams."
+    ]
+  },
+  "10": {
+    "name-cn": "树蚺Plus",
+    "name-en": "BOOMSLANG",
+    "des-cn": [
+      "连接地址硬编码的远程服务器，获取配置文件，解析配置",
+      "根据国家获取不同的IP和端口配置，进行目标地址访问。"
+    ],
+    "des-en": [
+      "Connecting to a remotely located server with hardcoded addresses, retrieving configuration files, and parsing configurations.",
+      "Fetching different IP and port configurations based on the country, and accessing the target address."
+    ]
+  },
+  "11": {
+    "name-cn": "漏斗网蜘蛛",
+    "name-en": "Funnel-web spider",
+    "des-cn": [
+      "该家族内部实现了简单的IM客户端，主要通过淫秽对话实施诈骗。",
+      "启动时，首先连接多个官方DoH服务器，以确保网络畅通。随后连接自建的DoH服务器，获取真正的通讯服务器。",
+      "该应用对大部分网络通讯相关内容（如URL等）进行加密或编码处理，以应对静态检测。"
+    ],
+    "des-en": [
+      "This family has implemented a simple IM client, primarily used for scams through obscene chats.",
+      "Upon startup, it first connects to multiple official DoH servers to ensure smooth network connectivity. It then connects to its own DoH server to obtain the actual communication server.",
+      "This app encrypts or encodes most network communication-related content, such as URLs, to counter static detection."
+    ]
+  },
+  "12": {
+    "name-cn": "跳跳虎",
+    "name-en": "Spring Tiger",
+    "des-cn": [
+      "该家族除了采用360的壳以外，对所有字符串采用加密编码，对抗静态扫描。",
+      "APK包很小，通过启动后加载一个在线网址呈现内容",
+      "APK的主要功能是广告、推广、下载APP，没有即时通讯功能"
+    ],
+    "des-en": [
+      "In addition to using 360's packer, this app family encrypts all strings to evade static analysis.",
+      "The APK package is very small, loading an online URL to present content after launch.",
+      "The primary functions of the APK are advertising, promotion, and app downloads, with no instant messaging features."
+    ]
+  },
+  "13": {
+    "name-cn": "字符青蛙",
+    "name-en": "Code Frog",
+    "des-cn": [
+      "采用了非常复杂的字符串混淆技术来对抗静态扫描",
+      "代码中内置了后台服务器地址，启动后连接后台服务器地址，获取用户列表，用户主页内容等",
+      "应用的主要内容色情为主题的社交"
+    ],
+    "des-en": [
+      "Utilizes advanced string obfuscation techniques to evade static scanning.",
+      "Embedded with backend server addresses to connect upon launch, retrieving user lists and homepage content.",
+      "The primary content is a social network themed around explicit adult content."
+    ]
+  },
+  "14": {
+    "name-cn": "彩虹幽灵",
+    "name-en": "Spectral Rainbow",
+    "des-cn": [
+      "内置了开源的IM系统",
+      "内置了几个备用的IP地址作为IM后台，启动后设置IP地址给IM，开启IM通讯"
+    ],
+    "des-en": [
+      "Includes an integrated open-source IM system.",
+      "Multiple backup IP addresses are preconfigured as IM backends; IPs are assigned to the IM system upon startup to enable communications."
+    ]
+  },
+  "15": {
+    "name-cn": "白眼企鹅",
+    "name-en": "Ghost Penguin",
+    "des-cn": [
+      "内部采用了腾讯系的诸多商用IM以及周边服务来完成",
+      "主要通过com.tencent.qcloud.tuikit实现IM"
+    ],
+    "des-en": [
+      "Utilizes various Tencent commercial IM and related services internally.",
+      "Primarily uses com.tencent.qcloud.tuikit for implementing IM functionality."
+    ]
+  },
+  "16": {
+    "name-cn": "果蝇",
+    "name-en": "Data Fly",
+    "des-cn": [
+      "自己开发或者购买了未公开的IM系统，该IM系统采用mqtt协议",
+      "代码高度混淆"
+    ],
+    "des-en": [
+      "Developed or acquired a proprietary IM system that uses the MQTT protocol.",
+      "Code is heavily obfuscated."
+    ]
+  },
+  "17": {
+    "name-cn": "亿博",
+    "name-en": "MegaSpread",
+    "des-cn": [
+      "该家族没有IM功能，实现了一个赌博的客户端",
+      "APP上可以下注、绑定银行卡，支付宝，使用加密货币等操作"
+    ],
+    "des-en": [
+      "This family lacks IM functions and is built as a gambling client.",
+      "Users can place bets, link bank accounts, Alipay, and use cryptocurrency transactions."
+    ]
+  },
+  "18": {
+    "name-cn": "云蚁",
+    "name-en": "Cloud Swarm",
+    "des-cn": [
+      "IM功能分成两部分，服务端采用了网易云信的IM服务，客户端自己开发了UI"
+    ],
+    "des-en": [
+      "The IM function is split into two parts: the server side uses NetEase Cloud IM service, while the client side has a custom-developed UI."
+    ]
+  },
+  "19": {
+    "name-cn": "白眼企鹅",
+    "name-en": "Ghost Penguin",
+    "des-cn": [
+      "内部采用了腾讯系的诸多商用IM以及周边服务来完成",
+      "主要通过com.tencent.imsdk实现IM"
+    ],
+    "des-en": [
+      "Utilizes various commercial IM services and related offerings from Tencent.",
+      "Primarily implemented via com.tencent.imsdk for IM functionality."
+    ]
+  },
+  "20": {
+    "name-cn": "曼陀罗",
+    "name-en": "Lotus Trap",
+    "des-cn": [
+      "内部自己实现了一套功能完整的付费聊天程序",
+      "APP内的主要功能免费聊天，语音通话，live、限时聊天，评论、赠送礼物等，是典型的色情服务应用。",
+      "可以网页调起js://alipay等进行支付。"
+    ],
+    "des-en": [
+      "Developed an in-house, fully-featured paid chat system.",
+      "Main features include free chat, voice calls, live streaming, timed chats, comments, and gift-giving, categorizing it as an adult-oriented service app.",
+      "Supports payment triggers such as js://alipay through web integration."
+    ]
+  },
+  "21": {
+    "name-cn": "信鸦",
+    "name-en": "Cipher Crow",
+    "des-cn": [
+      "自己开发或者购买了未公开的IM系统",
+      "启动后，如果没有配置动态服务器地址获取地址，则采用默认的服务器地址",
+      "如果配置了并且有网络，则从远程配置服务器获取地址。"
+    ],
+    "des-en": [
+      "Developed or acquired a proprietary IM system.",
+      "On launch, if no dynamic server address is configured, it defaults to a predefined server address.",
+      "If configured and connected, it retrieves the address from a remote configuration server."
+    ]
+  },
+  "22": {
+    "name-cn": "皮影戏",
+    "name-en": "Shadow Play",
+    "des-cn": [
+      "该APP主要内置了一些列的色情视屏资源，可以在线观看色情视频"
+    ],
+    "des-en": [
+      "The app primarily contains a collection of adult video content for online streaming."
+    ]
+  },
+  "23": {
+    "name-cn": "变色龙",
+    "name-en": "ColorShift",
+    "des-cn": [
+      "APK很小，6M左右，应用的主要行为是启动打开网站",
+      "是在线打包平台一键打包出品",
+      "通过打包不同的网址实现批量生产众多类型的APP"
+    ],
+    "des-en": [
+      "The APK is very small, around 6 MB, and primarily functions to open a website upon launch.",
+      "Created using a one-click online packaging platform.",
+      "Enables mass production of various app types by packaging different URLs."
+    ]
+  },
+  "24": {
+    "name-cn": "幻影",
+    "name-en": "PhantomWallet",
+    "des-cn": [
+      "使用DCloud平台实现的证券交易所应用。",
+      "功能完善，包括内置客服链接。",
+      "借助DCloud的便利的快速构建功能完善的金融类应用。"
+    ],
+    "des-en": [
+      "A securities exchange app developed using the DCloud platform.",
+      "Features are comprehensive, including a built-in customer service link.",
+      "Leverages the platform's capabilities to quickly build financial apps."
+    ]
+  },
+  "25": {
+    "name-cn": "寄居蟹",
+    "name-en": "HermitCrab",
+    "des-cn": [
+      "一个基于APP模版的应用，统一家族APP只有C2不同。",
+      "无需联网，通过修改固定位置的 http://ip:port 制造不同的APK。",
+      "旨在方便的生成多个变种APP，以逃逸封堵机制。"
+    ],
+    "des-en": [
+      "An app template that generates multiple variants by modifying the embedded C2 address and repackaging.",
+      "Does not require network connectivity, allowing different APKs to be created by changing the static http://ip:port.",
+      "Designed to evade blocking mechanisms."
+    ]
+  },
+  "26": {
+    "name-cn": "苦杏",
+    "name-en": "BitterApricot",
+    "des-cn": [
+      "内置封装了国内一款专注语音和视频聊天的APP",
+      "灵活配置C2地址"
+    ],
+    "des-en": [
+      "Encapsulates a domestic app focused on voice and video chatting.",
+      "Supports flexible C2 address configuration, allowing easy adjustment of communication targets."
+    ]
+  },
+  "27": {
+    "name-cn": "双簧戏",
+    "name-en": "Two-Person Act",
+    "des-cn": [
+      "技术上采用Flutter技术框架，对抗检测和分析。",
+      "行为上获取辅助功能权限，引导用户进行人脸识别和输入密码，最终诈骗用户。"
+    ],
+    "des-en": [
+      "Uses the Flutter framework for technical implementation, designed to evade detection and analysis.",
+      "Exploits accessibility permissions, guides users to perform facial recognition and input passwords, ultimately defrauding them."
+    ]
+  },
+  "28": {
+    "name-en": "STEAL-FULL-001",
+    "name-cn": "数据窃取器-全量数据窃取-001",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "FULL",
+    "subtype_zh": "全量数据窃取",
+    "index": "001",
+    "behavior_tags": [
+      "B:STEAL.FULL",
+      "B:STEAL.CONTACT",
+      "B:STEAL.MEDIA",
+      "B:STEAL.SMS",
+      "B:LOADER.DCLOUD",
+      "B:EVA.ICON",
+      "B:INST.SILENT"
+    ]
+  },
+  "29": {
+    "name-en": "TELE-NFC-001",
+    "name-cn": "电话诈骗工具-NFC模拟-001",
+    "category": "TELE",
+    "category_zh": "电话诈骗工具",
+    "subtype": "NFC",
+    "subtype_zh": "NFC模拟",
+    "index": "001",
+    "behavior_tags": [
+      "B:TELE.NFC"
+    ]
+  },
+  "30": {
+    "name-en": "SPY-CALL-001",
+    "name-cn": "间谍软件/监控-通话监听-001",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "CALL",
+    "subtype_zh": "通话监听",
+    "index": "001",
+    "behavior_tags": [
+      "B:SPY.CALL",
+      "B:NET.MQTT"
+    ]
+  },
+  "31": {
+    "name-en": "TELE-FULL-001",
+    "name-cn": "电话诈骗工具-多角色全套-001",
+    "category": "TELE",
+    "category_zh": "电话诈骗工具",
+    "subtype": "FULL",
+    "subtype_zh": "多角色全套",
+    "index": "001",
+    "behavior_tags": [
+      "B:TELE.FULL",
+      "B:RAT.C2",
+      "B:RAT.CALL",
+      "B:STEAL.SMS",
+      "B:SPY.AUDIO",
+      "B:SPY.CALL",
+      "B:PHISH.IM",
+      "B:DROP.STLTH",
+      "B:NET.WS"
+    ]
+  },
+  "32": {
+    "name-en": "TELE-FULL-002",
+    "name-cn": "电话诈骗工具-多角色全套-002",
+    "category": "TELE",
+    "category_zh": "电话诈骗工具",
+    "subtype": "FULL",
+    "subtype_zh": "多角色全套",
+    "index": "002",
+    "behavior_tags": [
+      "B:TELE.FULL",
+      "B:TELE.CARD",
+      "B:TELE.RELAY",
+      "B:RAT.CALL",
+      "B:RAT.FULL",
+      "B:NET.WS"
+    ]
+  },
+  "34": {
+    "name-en": "SPY-AUDIO-001",
+    "name-cn": "间谍软件/监控-麦克风窃听-001",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "AUDIO",
+    "subtype_zh": "麦克风窃听",
+    "index": "001",
+    "behavior_tags": [
+      "B:SPY.AUDIO",
+      "B:PHISH.IM",
+      "B:VPN.AUDIO",
+      "B:VPN.CTRL",
+      "B:VPN.PROXY"
+    ]
+  },
+  "35": {
+    "name-en": "SPY-AUDIO-002",
+    "name-cn": "间谍软件/监控-麦克风窃听-002",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "AUDIO",
+    "subtype_zh": "麦克风窃听",
+    "index": "002",
+    "behavior_tags": [
+      "B:SPY.AUDIO",
+      "B:VPN.PROXY"
+    ]
+  },
+  "36": {
+    "name-en": "TELE-CARD-001",
+    "name-cn": "电话诈骗工具-插卡端-001",
+    "category": "TELE",
+    "category_zh": "电话诈骗工具",
+    "subtype": "CARD",
+    "subtype_zh": "插卡端",
+    "index": "001",
+    "behavior_tags": [
+      "B:TELE.CARD",
+      "B:TELE.VOICE",
+      "B:STEAL.FULL",
+      "B:STEAL.MEDIA",
+      "B:NET.WS"
+    ]
+  },
+  "37": {
+    "name-en": "TELE-CARD-002",
+    "name-cn": "电话诈骗工具-插卡端-002",
+    "category": "TELE",
+    "category_zh": "电话诈骗工具",
+    "subtype": "CARD",
+    "subtype_zh": "插卡端",
+    "index": "002",
+    "behavior_tags": [
+      "B:TELE.CARD",
+      "B:TELE.VOICE",
+      "B:RAT.FULL",
+      "B:STEAL.MEDIA",
+      "B:SPY.AUDIO",
+      "B:SPY.CALL",
+      "B:PHISH.IM",
+      "B:EVA.ICON",
+      "B:NET.WS"
+    ]
+  },
+  "38": {
+    "name-en": "TELE-FULL-003",
+    "name-cn": "电话诈骗工具-多角色全套-003",
+    "category": "TELE",
+    "category_zh": "电话诈骗工具",
+    "subtype": "FULL",
+    "subtype_zh": "多角色全套",
+    "index": "003",
+    "behavior_tags": [
+      "B:TELE.FULL",
+      "B:TELE.CARD",
+      "B:TELE.RELAY",
+      "B:TELE.VOICE",
+      "B:RAT.CALL",
+      "B:STEAL.SMS",
+      "B:EVA.ICON",
+      "B:NET.WS"
+    ]
+  },
+  "39": {
+    "name-en": "TELE-CARD-003",
+    "name-cn": "电话诈骗工具-插卡端-003",
+    "category": "TELE",
+    "category_zh": "电话诈骗工具",
+    "subtype": "CARD",
+    "subtype_zh": "插卡端",
+    "index": "003",
+    "behavior_tags": [
+      "B:TELE.CARD",
+      "B:RAT.CALL",
+      "B:STEAL.SMS",
+      "B:SPY.AUDIO",
+      "B:SPY.CALL",
+      "B:EVA.ICON"
+    ]
+  },
+  "40": {
+    "name-en": "TELE-FULL-004",
+    "name-cn": "电话诈骗工具-多角色全套-004",
+    "category": "TELE",
+    "category_zh": "电话诈骗工具",
+    "subtype": "FULL",
+    "subtype_zh": "多角色全套",
+    "index": "004",
+    "behavior_tags": [
+      "B:TELE.FULL",
+      "B:TELE.CARD",
+      "B:RAT.CALL",
+      "B:SPY.CALL",
+      "B:EVA.ICON",
+      "B:NET.WS"
+    ]
+  },
+  "41": {
+    "name-en": "VPN-CTRL-001",
+    "name-cn": "VPN流量劫持-流量选择控制-001",
+    "category": "VPN",
+    "category_zh": "VPN流量劫持",
+    "subtype": "CTRL",
+    "subtype_zh": "流量选择控制",
+    "index": "001",
+    "behavior_tags": [
+      "B:VPN.CTRL",
+      "B:VPN.PROXY"
+    ]
+  },
+  "42": {
+    "name-en": "RAT-CALL-001",
+    "name-cn": "远程控制木马-通话劫持-001",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "CALL",
+    "subtype_zh": "通话劫持",
+    "index": "001",
+    "behavior_tags": [
+      "B:RAT.CALL",
+      "B:STEAL.CONTACT",
+      "B:STEAL.SMS",
+      "B:VPN.PROXY"
+    ]
+  },
+  "43": {
+    "name-en": "TELE-CARD-004",
+    "name-cn": "电话诈骗工具-插卡端-004",
+    "category": "TELE",
+    "category_zh": "电话诈骗工具",
+    "subtype": "CARD",
+    "subtype_zh": "插卡端",
+    "index": "004",
+    "behavior_tags": [
+      "B:TELE.CARD",
+      "B:RAT.FULL",
+      "B:STEAL.SMS",
+      "B:PHISH.IM"
+    ]
+  },
+  "44": {
+    "name-en": "RAT-WEB-001",
+    "name-cn": "远程控制木马-WebView桥接-001",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "WEB",
+    "subtype_zh": "WebView桥接",
+    "index": "001",
+    "behavior_tags": [
+      "B:RAT.WEB",
+      "B:PHISH.WEB",
+      "B:DROP.DYN",
+      "B:LOADER.WEB"
+    ]
+  },
+  "45": {
+    "name-en": "STEAL-SMS-001",
+    "name-cn": "数据窃取器-短信窃取-001",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "SMS",
+    "subtype_zh": "短信窃取",
+    "index": "001",
+    "behavior_tags": [
+      "B:STEAL.SMS",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:PHISH.OVER",
+      "B:PHISH.WEB",
+      "B:DROP.DYN",
+      "B:LOADER.DCLOUD",
+      "B:LOADER.WEB",
+      "B:EVA.ICON",
+      "B:INST.SILENT"
+    ]
+  },
+  "46": {
+    "name-en": "SPY-LOC-001",
+    "name-cn": "间谍软件/监控-位置追踪-001",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "LOC",
+    "subtype_zh": "位置追踪",
+    "index": "001",
+    "behavior_tags": [
+      "B:SPY.LOC",
+      "B:LOADER.DCLOUD",
+      "B:EVA.OBFS"
+    ]
+  },
+  "47": {
+    "name-en": "RAT-CALL-002",
+    "name-cn": "远程控制木马-通话劫持-002",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "CALL",
+    "subtype_zh": "通话劫持",
+    "index": "002",
+    "behavior_tags": [
+      "B:RAT.CALL",
+      "B:RAT.PUSH",
+      "B:STEAL.CONTACT",
+      "B:STEAL.MEDIA",
+      "B:SPY.AUDIO",
+      "B:PHISH.IM",
+      "B:EVA.ICON",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "48": {
+    "name-en": "VPN-PROXY-001",
+    "name-cn": "VPN流量劫持-流量代理劫持-001",
+    "category": "VPN",
+    "category_zh": "VPN流量劫持",
+    "subtype": "PROXY",
+    "subtype_zh": "流量代理劫持",
+    "index": "001",
+    "behavior_tags": [
+      "B:VPN.PROXY"
+    ]
+  },
+  "49": {
+    "name-en": "RAT-CALL-003",
+    "name-cn": "远程控制木马-通话劫持-003",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "CALL",
+    "subtype_zh": "通话劫持",
+    "index": "003",
+    "behavior_tags": [
+      "B:RAT.CALL",
+      "B:RAT.PUSH",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:PHISH.IM",
+      "B:PHISH.SOC",
+      "B:ADWARE.MULTI",
+      "B:ADWARE.PUSH"
+    ]
+  },
+  "50": {
+    "name-en": "RAT-PUSH-001",
+    "name-cn": "远程控制木马-推送指令-001",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "PUSH",
+    "subtype_zh": "推送指令",
+    "index": "001",
+    "behavior_tags": [
+      "B:RAT.PUSH",
+      "B:STEAL.MEDIA",
+      "B:PHISH.WEB",
+      "B:LOADER.SDK",
+      "B:LOADER.WEB",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "51": {
+    "name-en": "RAT-FIRE-001",
+    "name-cn": "远程控制木马-Firebase控制-001",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "FIRE",
+    "subtype_zh": "Firebase控制",
+    "index": "001",
+    "behavior_tags": [
+      "B:RAT.FIRE",
+      "B:RAT.C2",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:PHISH.IM",
+      "B:PER.FG",
+      "B:NET.FIREBASE"
+    ]
+  },
+  "52": {
+    "name-en": "RAT-WEB-002",
+    "name-cn": "远程控制木马-WebView桥接-002",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "WEB",
+    "subtype_zh": "WebView桥接",
+    "index": "002",
+    "behavior_tags": [
+      "B:RAT.WEB",
+      "B:PHISH.WEB",
+      "B:LOADER.SDK",
+      "B:LOADER.WEB"
+    ]
+  },
+  "53": {
+    "name-en": "STEAL-MEDIA-001",
+    "name-cn": "数据窃取器-媒体文件窃取-001",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "MEDIA",
+    "subtype_zh": "媒体文件窃取",
+    "index": "001",
+    "behavior_tags": [
+      "B:STEAL.MEDIA",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:PHISH.WEB",
+      "B:DROP.DYN",
+      "B:LOADER.SDK",
+      "B:LOADER.WEB"
+    ]
+  },
+  "54": {
+    "name-en": "FINANCE-CRYPTO-001",
+    "name-cn": "金融诈骗-加密货币诈骗-001",
+    "category": "FINANCE",
+    "category_zh": "金融诈骗",
+    "subtype": "CRYPTO",
+    "subtype_zh": "加密货币诈骗",
+    "index": "001",
+    "behavior_tags": [
+      "B:FINANCE.CRYPTO",
+      "B:FINANCE.WEB",
+      "B:SPY.CAM",
+      "B:PHISH.WEB",
+      "B:VPN.CTRL",
+      "B:LOADER.SDK",
+      "B:LOADER.WEB",
+      "B:NET.CLEAR",
+      "B:EVA.OBFS"
+    ]
+  },
+  "55": {
+    "name-en": "STEAL-MEDIA-002",
+    "name-cn": "数据窃取器-媒体文件窃取-002",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "MEDIA",
+    "subtype_zh": "媒体文件窃取",
+    "index": "002",
+    "behavior_tags": [
+      "B:STEAL.MEDIA",
+      "B:SPY.AUDIO",
+      "B:SPY.SCREEN"
+    ]
+  },
+  "56": {
+    "name-en": "PHISH-WEB-001",
+    "name-cn": "网络钓鱼/社会工程-网页钓鱼-001",
+    "category": "PHISH",
+    "category_zh": "网络钓鱼/社会工程",
+    "subtype": "WEB",
+    "subtype_zh": "网页钓鱼",
+    "index": "001",
+    "behavior_tags": [
+      "B:PHISH.WEB",
+      "B:NET.DYNAMIC",
+      "B:INST.HOTFIX",
+      "B:INST.SILENT"
+    ]
+  },
+  "57": {
+    "name-en": "SPY-AUDIO-003",
+    "name-cn": "间谍软件/监控-麦克风窃听-003",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "AUDIO",
+    "subtype_zh": "麦克风窃听",
+    "index": "003",
+    "behavior_tags": [
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:SPY.LOC",
+      "B:EVA.ICON",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "58": {
+    "name-cn": "鸿信通",
+    "name-en": "Hongxintong",
+    "des-cn": [
+      "伪装为即时通讯应用，集成小米、华为、魅族推送服务，以接收和处理消息。",
+      "通过第三方API（高德地图、OpenInstall、友盟等）集成额外功能，扩大用户行为跟踪和数据收集范围。",
+      "具备手机状态监听（电话呼叫、状态变更）、通话记录读写权限，可能实现通话拦截和通话记录窃取。",
+      "利用前台服务和自启动机制，保证应用持续运行和后台活动，增强驻留性。",
+      "实现多种本地数据访问权限，包括读取/写入外部存储，进一步窃取隐私数据。"
+    ],
+    "des-en": [
+      "Disguises itself as an instant messaging application, integrating Xiaomi, Huawei, and Meizu push services to receive and process messages.",
+      "Integrates additional functionalities through third-party APIs (Amap, OpenInstall, Umeng, etc.), expanding the scope of user behavior tracking and data collection.",
+      "Possesses permissions to monitor phone state (call incoming, state change) and read/write call logs, potentially enabling call interception and call record theft.",
+      "Utilizes foreground services and auto-start mechanisms to ensure continuous application operation and background activity, enhancing persistence.",
+      "Implements various local data access permissions, including read/write external storage, to further exfiltrate private data."
+    ]
+  },
+  "59": {
+    "name-en": "RAT-PUSH-002",
+    "name-cn": "远程控制木马-推送指令-002",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "PUSH",
+    "subtype_zh": "推送指令",
+    "index": "002",
+    "behavior_tags": [
+      "B:RAT.PUSH",
+      "B:STEAL.FULL",
+      "B:FINANCE.PAY",
+      "B:PHISH.IM",
+      "B:PHISH.OVER",
+      "B:NET.MULTI_PUSH",
+      "B:EVA.OBFS"
+    ]
+  },
+  "60": {
+    "name-cn": "云端潜行者",
+    "name-en": "Cloud Stealth",
+    "des-cn": [
+      "该应用伪装成正常的移动服务，实际行为与远程服务和资产管理强关联。",
+      "通过加载远程URL，进行动态行为配置或展现攻击面。",
+      "具备访问相册、文件、录像和电话状态等敏感权限。",
+      "核心功能封装在DCloud组件中，具有较高的隐蔽性。"
+    ],
+    "des-en": [
+      "The app masquerades as a legitimate mobile service, but its actual behavior is strongly tied to remote services and asset management.",
+      "It loads remote URLs for dynamic behavior configuration or exposing attack surfaces.",
+      "It has access to sensitive permissions such as access to photo albums, files, videos, and phone status.",
+      "Core functionalities are encapsulated within DCloud components, providing a high degree of stealth."
+    ]
+  },
+  "61": {
+    "name-en": "SPY-SCREEN-001",
+    "name-cn": "间谍软件/监控-屏幕录制-001",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "SCREEN",
+    "subtype_zh": "屏幕录制",
+    "index": "001",
+    "behavior_tags": [
+      "B:SPY.SCREEN",
+      "B:SPY.AUDIO",
+      "B:SPY.CALL"
+    ]
+  },
+  "63": {
+    "name-en": "RAT-WEB-003",
+    "name-cn": "远程控制木马-WebView桥接-003",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "WEB",
+    "subtype_zh": "WebView桥接",
+    "index": "003",
+    "behavior_tags": [
+      "B:RAT.WEB",
+      "B:PHISH.SOC",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB",
+      "B:NET.CLEAR"
+    ]
+  },
+  "64": {
+    "name-en": "STEAL-MEDIA-003",
+    "name-cn": "数据窃取器-媒体文件窃取-003",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "MEDIA",
+    "subtype_zh": "媒体文件窃取",
+    "index": "003",
+    "behavior_tags": [
+      "B:STEAL.MEDIA",
+      "B:SPY.CAM",
+      "B:PHISH.WEB",
+      "B:DROP.DYN",
+      "B:LOADER.WEB",
+      "B:NET.CLEAR"
+    ]
+  },
+  "65": {
+    "name-en": "SPY-AUDIO-004",
+    "name-cn": "间谍软件/监控-麦克风窃听-004",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "AUDIO",
+    "subtype_zh": "麦克风窃听",
+    "index": "004",
+    "behavior_tags": [
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:PHISH.WEB",
+      "B:DROP.DYN",
+      "B:LOADER.WEB",
+      "B:NET.CLEAR",
+      "B:EVA.ICON"
+    ]
+  },
+  "66": {
+    "name-en": "PHISH-WEB-002",
+    "name-cn": "网络钓鱼/社会工程-网页钓鱼-002",
+    "category": "PHISH",
+    "category_zh": "网络钓鱼/社会工程",
+    "subtype": "WEB",
+    "subtype_zh": "网页钓鱼",
+    "index": "002",
+    "behavior_tags": [
+      "B:PHISH.WEB",
+      "B:LOADER.WEB",
+      "B:NET.CLEAR"
+    ]
+  },
+  "67": {
+    "name-en": "SPY-DEV-001",
+    "name-cn": "间谍软件/监控-设备指纹采集-001",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "DEV",
+    "subtype_zh": "设备指纹采集",
+    "index": "001",
+    "behavior_tags": [
+      "B:SPY.DEV",
+      "B:VPN.PROXY",
+      "B:NET.CLEAR"
+    ]
+  },
+  "68": {
+    "name-en": "RAT-PUSH-003",
+    "name-cn": "远程控制木马-推送指令-003",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "PUSH",
+    "subtype_zh": "推送指令",
+    "index": "003",
+    "behavior_tags": [
+      "B:RAT.PUSH",
+      "B:STEAL.FULL",
+      "B:FINANCE.PAY",
+      "B:GAMBLE.CASINO",
+      "B:PHISH.GAME",
+      "B:DROP.DYN",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "70": {
+    "name-en": "STEAL-CONTACT-001",
+    "name-cn": "数据窃取器-联系人窃取-001",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "CONTACT",
+    "subtype_zh": "联系人窃取",
+    "index": "001",
+    "behavior_tags": [
+      "B:STEAL.CONTACT",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:PHISH.WEB",
+      "B:ADWARE.MULTI",
+      "B:ADWARE.PUSH",
+      "B:LOADER.DCLOUD"
+    ]
+  },
+  "71": {
+    "name-en": "PHISH-WEB-003",
+    "name-cn": "网络钓鱼/社会工程-网页钓鱼-003",
+    "category": "PHISH",
+    "category_zh": "网络钓鱼/社会工程",
+    "subtype": "WEB",
+    "subtype_zh": "网页钓鱼",
+    "index": "003",
+    "behavior_tags": [
+      "B:PHISH.WEB",
+      "B:DROP.DYN",
+      "B:DROP.STLTH",
+      "B:EVA.PACK"
+    ]
+  },
+  "74": {
+    "name-en": "STEAL-FULL-002",
+    "name-cn": "数据窃取器-全量数据窃取-002",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "FULL",
+    "subtype_zh": "全量数据窃取",
+    "index": "002",
+    "behavior_tags": [
+      "B:STEAL.FULL",
+      "B:PHISH.WEB",
+      "B:PER.BOOT",
+      "B:PER.FG",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "75": {
+    "name-en": "PHISH-OVER-001",
+    "name-cn": "网络钓鱼/社会工程-界面覆盖攻击-001",
+    "category": "PHISH",
+    "category_zh": "网络钓鱼/社会工程",
+    "subtype": "OVER",
+    "subtype_zh": "界面覆盖攻击",
+    "index": "001",
+    "behavior_tags": [
+      "B:PHISH.OVER",
+      "B:NET.CLEAR"
+    ]
+  },
+  "77": {
+    "name-en": "ADULT-GAME-001",
+    "name-cn": "色情内容诈骗-成人游戏诈骗-001",
+    "category": "ADULT",
+    "category_zh": "色情内容诈骗",
+    "subtype": "GAME",
+    "subtype_zh": "成人游戏诈骗",
+    "index": "001",
+    "behavior_tags": [
+      "B:ADULT.GAME",
+      "B:ADULT.PORN",
+      "B:EVA.OBFS"
+    ]
+  },
+  "80": {
+    "name-en": "PHISH-WEB-004",
+    "name-cn": "网络钓鱼/社会工程-网页钓鱼-004",
+    "category": "PHISH",
+    "category_zh": "网络钓鱼/社会工程",
+    "subtype": "WEB",
+    "subtype_zh": "网页钓鱼",
+    "index": "004",
+    "behavior_tags": [
+      "B:PHISH.WEB"
+    ]
+  },
+  "79": {
+    "name-en": "SPY-BIO-001",
+    "name-cn": "间谍软件/监控-生物识别监控-001",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "BIO",
+    "subtype_zh": "生物识别监控",
+    "index": "001",
+    "behavior_tags": [
+      "B:SPY.BIO",
+      "B:SPY.CAM",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "81": {
+    "name-en": "STEAL-FULL-003",
+    "name-cn": "数据窃取器-全量数据窃取-003",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "FULL",
+    "subtype_zh": "全量数据窃取",
+    "index": "003",
+    "behavior_tags": [
+      "B:STEAL.FULL",
+      "B:SPY.LOC",
+      "B:PER.BOOT"
+    ]
+  },
+  "84": {
+    "name-en": "SPY-DEV-002",
+    "name-cn": "间谍软件/监控-设备指纹采集-002",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "DEV",
+    "subtype_zh": "设备指纹采集",
+    "index": "002",
+    "behavior_tags": [
+      "B:SPY.DEV",
+      "B:VPN.PROXY"
+    ]
+  },
+  "87": {
+    "name-en": "PHISH-WEB-005",
+    "name-cn": "网络钓鱼/社会工程-网页钓鱼-005",
+    "category": "PHISH",
+    "category_zh": "网络钓鱼/社会工程",
+    "subtype": "WEB",
+    "subtype_zh": "网页钓鱼",
+    "index": "005",
+    "behavior_tags": [
+      "B:PHISH.WEB",
+      "B:LOADER.WEB"
+    ]
+  },
+  "90": {
+    "name-en": "RAT-WEB-004",
+    "name-cn": "远程控制木马-WebView桥接-004",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "WEB",
+    "subtype_zh": "WebView桥接",
+    "index": "004",
+    "behavior_tags": [
+      "B:RAT.WEB",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB"
+    ]
+  },
+  "91": {
+    "name-en": "DROP-STLTH-001",
+    "name-cn": "释放器/安装器-隐蔽释放-001",
+    "category": "DROP",
+    "category_zh": "释放器/安装器",
+    "subtype": "STLTH",
+    "subtype_zh": "隐蔽释放",
+    "index": "001",
+    "behavior_tags": [
+      "B:DROP.STLTH",
+      "B:EVA.OBFS"
+    ]
+  },
+  "92": {
+    "name-en": "RAT-CALL-004",
+    "name-cn": "远程控制木马-通话劫持-004",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "CALL",
+    "subtype_zh": "通话劫持",
+    "index": "004",
+    "behavior_tags": [
+      "B:RAT.CALL",
+      "B:STEAL.CONTACT",
+      "B:STEAL.MEDIA",
+      "B:STEAL.SMS",
+      "B:SPY.LOC",
+      "B:PER.KEEPALIVE"
+    ]
+  },
+  "93": {
+    "name-en": "RAT-PUSH-004",
+    "name-cn": "远程控制木马-推送指令-004",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "PUSH",
+    "subtype_zh": "推送指令",
+    "index": "004",
+    "behavior_tags": [
+      "B:RAT.PUSH",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "94": {
+    "name-en": "RAT-PUSH-005",
+    "name-cn": "远程控制木马-推送指令-005",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "PUSH",
+    "subtype_zh": "推送指令",
+    "index": "005",
+    "behavior_tags": [
+      "B:RAT.PUSH",
+      "B:SPY.DEV",
+      "B:PHISH.SOC"
+    ]
+  },
+  "95": {
+    "name-en": "MISC-LOW-001",
+    "name-cn": "待定/其他-低风险-001",
+    "category": "MISC",
+    "category_zh": "待定/其他",
+    "subtype": "LOW",
+    "subtype_zh": "低风险",
+    "index": "001",
+    "behavior_tags": [
+      "B:MISC.LOW",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "96": {
+    "name-en": "STEAL-SMS-002",
+    "name-cn": "数据窃取器-短信窃取-002",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "SMS",
+    "subtype_zh": "短信窃取",
+    "index": "002",
+    "behavior_tags": [
+      "B:STEAL.SMS",
+      "B:STEAL.CONTACT"
+    ]
+  },
+  "97": {
+    "name-en": "RAT-PUSH-006",
+    "name-cn": "远程控制木马-推送指令-006",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "PUSH",
+    "subtype_zh": "推送指令",
+    "index": "006",
+    "behavior_tags": [
+      "B:RAT.PUSH",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "98": {
+    "name-en": "RAT-CALL-005",
+    "name-cn": "远程控制木马-通话劫持-005",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "CALL",
+    "subtype_zh": "通话劫持",
+    "index": "005",
+    "behavior_tags": [
+      "B:RAT.CALL",
+      "B:SPY.AUDIO",
+      "B:SPY.CALL",
+      "B:SPY.SCREEN",
+      "B:PER.FG"
+    ]
+  },
+  "99": {
+    "name-en": "FINANCE-PAY-001",
+    "name-cn": "金融诈骗-虚假支付平台-001",
+    "category": "FINANCE",
+    "category_zh": "金融诈骗",
+    "subtype": "PAY",
+    "subtype_zh": "虚假支付平台",
+    "index": "001",
+    "behavior_tags": [
+      "B:FINANCE.PAY",
+      "B:SPY.DEV",
+      "B:PHISH.GAME",
+      "B:EVA.ANTI_VM"
+    ]
+  },
+  "100": {
+    "name-en": "RAT-PUSH-007",
+    "name-cn": "远程控制木马-推送指令-007",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "PUSH",
+    "subtype_zh": "推送指令",
+    "index": "007",
+    "behavior_tags": [
+      "B:RAT.PUSH",
+      "B:STEAL.CONTACT",
+      "B:STEAL.SMS",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB"
+    ]
+  },
+  "101": {
+    "name-en": "STEAL-FULL-004",
+    "name-cn": "数据窃取器-全量数据窃取-004",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "FULL",
+    "subtype_zh": "全量数据窃取",
+    "index": "004",
+    "behavior_tags": [
+      "B:STEAL.FULL",
+      "B:DROP.DYN",
+      "B:EVA.OBFS"
+    ]
+  },
+  "103": {
+    "name-en": "RAT-WEB-005",
+    "name-cn": "远程控制木马-WebView桥接-005",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "WEB",
+    "subtype_zh": "WebView桥接",
+    "index": "005",
+    "behavior_tags": [
+      "B:RAT.WEB",
+      "B:RAT.C2",
+      "B:RAT.PUSH",
+      "B:FINANCE.PAY",
+      "B:GAMBLE.CASINO",
+      "B:PHISH.WEB"
+    ]
+  },
+  "104": {
+    "name-en": "RAT-CALL-006",
+    "name-cn": "远程控制木马-通话劫持-006",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "CALL",
+    "subtype_zh": "通话劫持",
+    "index": "006",
+    "behavior_tags": [
+      "B:RAT.CALL",
+      "B:RAT.PUSH",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:SPY.LOC",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "106": {
+    "name-en": "SPY-AUDIO-005",
+    "name-cn": "间谍软件/监控-麦克风窃听-005",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "AUDIO",
+    "subtype_zh": "麦克风窃听",
+    "index": "005",
+    "behavior_tags": [
+      "B:SPY.AUDIO",
+      "B:LOADER.CORD",
+      "B:NET.CLEAR"
+    ]
+  },
+  "109": {
+    "name-en": "RAT-PUSH-008",
+    "name-cn": "远程控制木马-推送指令-008",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "PUSH",
+    "subtype_zh": "推送指令",
+    "index": "008",
+    "behavior_tags": [
+      "B:RAT.PUSH",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:SPY.LOC",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB"
+    ]
+  },
+  "110": {
+    "name-en": "RAT-C2-001",
+    "name-cn": "远程控制木马-C2指令控制-001",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "C2",
+    "subtype_zh": "C2指令控制",
+    "index": "001",
+    "behavior_tags": [
+      "B:RAT.C2",
+      "B:SPY.CAM"
+    ]
+  },
+  "112": {
+    "name-en": "MISC-SUSPECT-001",
+    "name-cn": "待定/其他-疑似恶意-001",
+    "category": "MISC",
+    "category_zh": "待定/其他",
+    "subtype": "SUSPECT",
+    "subtype_zh": "疑似恶意",
+    "index": "001",
+    "behavior_tags": [
+      "B:MISC.SUSPECT",
+      "B:EVA.ICON"
+    ]
+  },
+  "114": {
+    "name-en": "RAT-C2-002",
+    "name-cn": "远程控制木马-C2指令控制-002",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "C2",
+    "subtype_zh": "C2指令控制",
+    "index": "002",
+    "behavior_tags": [
+      "B:RAT.C2",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB"
+    ]
+  },
+  "115": {
+    "name-en": "STEAL-FULL-005",
+    "name-cn": "数据窃取器-全量数据窃取-005",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "FULL",
+    "subtype_zh": "全量数据窃取",
+    "index": "005",
+    "behavior_tags": [
+      "B:STEAL.FULL",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:PHISH.IM"
+    ]
+  },
+  "116": {
+    "name-en": "RAT-ACCESS-001",
+    "name-cn": "远程控制木马-无障碍控制-001",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "ACCESS",
+    "subtype_zh": "无障碍控制",
+    "index": "001",
+    "behavior_tags": [
+      "B:RAT.ACCESS",
+      "B:RAT.C2",
+      "B:FINANCE.PAY",
+      "B:PHISH.WEB",
+      "B:DROP.DYN",
+      "B:NET.DYNAMIC",
+      "B:EVA.OBFS"
+    ]
+  },
+  "117": {
+    "name-en": "SPY-CAM-001",
+    "name-cn": "间谍软件/监控-摄像头监控-001",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "CAM",
+    "subtype_zh": "摄像头监控",
+    "index": "001",
+    "behavior_tags": [
+      "B:SPY.CAM",
+      "B:PHISH.WEB"
+    ]
+  },
+  "118": {
+    "name-en": "PHISH-WEB-006",
+    "name-cn": "网络钓鱼/社会工程-网页钓鱼-006",
+    "category": "PHISH",
+    "category_zh": "网络钓鱼/社会工程",
+    "subtype": "WEB",
+    "subtype_zh": "网页钓鱼",
+    "index": "006",
+    "behavior_tags": [
+      "B:PHISH.WEB",
+      "B:DROP.DYN",
+      "B:LOADER.WEB"
+    ]
+  },
+  "120": {
+    "name-en": "MISC-LOW-002",
+    "name-cn": "待定/其他-低风险-002",
+    "category": "MISC",
+    "category_zh": "待定/其他",
+    "subtype": "LOW",
+    "subtype_zh": "低风险",
+    "index": "002",
+    "behavior_tags": [
+      "B:MISC.LOW"
+    ]
+  },
+  "121": {
+    "name-en": "RAT-WEB-006",
+    "name-cn": "远程控制木马-WebView桥接-006",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "WEB",
+    "subtype_zh": "WebView桥接",
+    "index": "006",
+    "behavior_tags": [
+      "B:RAT.WEB",
+      "B:STEAL.SMS",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:SPY.LOC",
+      "B:PHISH.IM",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "123": {
+    "name-en": "STEAL-SMS-003",
+    "name-cn": "数据窃取器-短信窃取-003",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "SMS",
+    "subtype_zh": "短信窃取",
+    "index": "003",
+    "behavior_tags": [
+      "B:STEAL.SMS",
+      "B:STEAL.CONTACT",
+      "B:DROP.DYN",
+      "B:LOADER.DCLOUD"
+    ]
+  },
+  "124": {
+    "name-en": "RAT-C2-003",
+    "name-cn": "远程控制木马-C2指令控制-003",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "C2",
+    "subtype_zh": "C2指令控制",
+    "index": "003",
+    "behavior_tags": [
+      "B:RAT.C2",
+      "B:STEAL.CONTACT"
+    ]
+  },
+  "125": {
+    "name-en": "FINANCE-PAY-002",
+    "name-cn": "金融诈骗-虚假支付平台-002",
+    "category": "FINANCE",
+    "category_zh": "金融诈骗",
+    "subtype": "PAY",
+    "subtype_zh": "虚假支付平台",
+    "index": "002",
+    "behavior_tags": [
+      "B:FINANCE.PAY",
+      "B:SPY.AUDIO",
+      "B:SPY.LOC",
+      "B:PHISH.SOC"
+    ]
+  },
+  "127": {
+    "name-en": "RAT-PUSH-009",
+    "name-cn": "远程控制木马-推送指令-009",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "PUSH",
+    "subtype_zh": "推送指令",
+    "index": "009",
+    "behavior_tags": [
+      "B:RAT.PUSH",
+      "B:ADWARE.MULTI",
+      "B:ADWARE.PUSH",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "128": {
+    "name-en": "RAT-C2-004",
+    "name-cn": "远程控制木马-C2指令控制-004",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "C2",
+    "subtype_zh": "C2指令控制",
+    "index": "004",
+    "behavior_tags": [
+      "B:RAT.C2",
+      "B:RAT.PUSH",
+      "B:STEAL.FULL",
+      "B:SPY.AUDIO",
+      "B:SPY.SCREEN",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "129": {
+    "name-en": "STEAL-FULL-006",
+    "name-cn": "数据窃取器-全量数据窃取-006",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "FULL",
+    "subtype_zh": "全量数据窃取",
+    "index": "006",
+    "behavior_tags": [
+      "B:STEAL.FULL",
+      "B:STEAL.CONTACT",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:SPY.DEV",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB",
+      "B:NET.MULTI_PUSH",
+      "B:INST.SILENT"
+    ]
+  },
+  "130": {
+    "name-en": "RAT-WEB-007",
+    "name-cn": "远程控制木马-WebView桥接-007",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "WEB",
+    "subtype_zh": "WebView桥接",
+    "index": "007",
+    "behavior_tags": [
+      "B:RAT.WEB",
+      "B:FINANCE.PAY",
+      "B:FINANCE.WEB",
+      "B:SPY.CAM",
+      "B:PHISH.WEB",
+      "B:DROP.DYN",
+      "B:LOADER.WEB"
+    ]
+  },
+  "131": {
+    "name-en": "STEAL-SMS-004",
+    "name-cn": "数据窃取器-短信窃取-004",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "SMS",
+    "subtype_zh": "短信窃取",
+    "index": "004",
+    "behavior_tags": [
+      "B:STEAL.SMS",
+      "B:STEAL.CONTACT",
+      "B:STEAL.MEDIA",
+      "B:SPY.LOC"
+    ]
+  },
+  "132": {
+    "name-en": "RAT-WEB-008",
+    "name-cn": "远程控制木马-WebView桥接-008",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "WEB",
+    "subtype_zh": "WebView桥接",
+    "index": "008",
+    "behavior_tags": [
+      "B:RAT.WEB",
+      "B:PHISH.OVER",
+      "B:PHISH.WEB",
+      "B:LOADER.CORD",
+      "B:LOADER.WEB"
+    ]
+  },
+  "134": {
+    "name-en": "RAT-C2-005",
+    "name-cn": "远程控制木马-C2指令控制-005",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "C2",
+    "subtype_zh": "C2指令控制",
+    "index": "005",
+    "behavior_tags": [
+      "B:RAT.C2",
+      "B:NET.DYNAMIC"
+    ]
+  },
+  "135": {
+    "name-en": "RAT-C2-006",
+    "name-cn": "远程控制木马-C2指令控制-006",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "C2",
+    "subtype_zh": "C2指令控制",
+    "index": "006",
+    "behavior_tags": [
+      "B:RAT.C2"
+    ]
+  },
+  "138": {
+    "name-en": "RAT-C2-007",
+    "name-cn": "远程控制木马-C2指令控制-007",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "C2",
+    "subtype_zh": "C2指令控制",
+    "index": "007",
+    "behavior_tags": [
+      "B:RAT.C2",
+      "B:RAT.PUSH",
+      "B:STEAL.MEDIA",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:SPY.LOC",
+      "B:SPY.SCREEN",
+      "B:PER.BOOT",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "141": {
+    "name-en": "PHISH-WEB-007",
+    "name-cn": "网络钓鱼/社会工程-网页钓鱼-007",
+    "category": "PHISH",
+    "category_zh": "网络钓鱼/社会工程",
+    "subtype": "WEB",
+    "subtype_zh": "网页钓鱼",
+    "index": "007",
+    "behavior_tags": [
+      "B:PHISH.WEB",
+      "B:LOADER.WEB",
+      "B:NET.CLEAR"
+    ]
+  },
+  "142": {
+    "name-en": "RAT-CALL-007",
+    "name-cn": "远程控制木马-通话劫持-007",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "CALL",
+    "subtype_zh": "通话劫持",
+    "index": "007",
+    "behavior_tags": [
+      "B:RAT.CALL",
+      "B:RAT.C2",
+      "B:RAT.PUSH",
+      "B:STEAL.MEDIA",
+      "B:SPY.SCREEN",
+      "B:PER.BOOT"
+    ]
+  },
+  "144": {
+    "name-en": "RAT-C2-008",
+    "name-cn": "远程控制木马-C2指令控制-008",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "C2",
+    "subtype_zh": "C2指令控制",
+    "index": "008",
+    "behavior_tags": [
+      "B:RAT.C2",
+      "B:RAT.PUSH",
+      "B:STEAL.MEDIA",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:SPY.LOC",
+      "B:SPY.SCREEN"
+    ]
+  },
+  "146": {
+    "name-en": "RAT-C2-009",
+    "name-cn": "远程控制木马-C2指令控制-009",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "C2",
+    "subtype_zh": "C2指令控制",
+    "index": "009",
+    "behavior_tags": [
+      "B:RAT.C2",
+      "B:RAT.PUSH",
+      "B:SPY.LOC",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "148": {
+    "name-en": "DROP-PLUG-001",
+    "name-cn": "释放器/安装器-插件化释放-001",
+    "category": "DROP",
+    "category_zh": "释放器/安装器",
+    "subtype": "PLUG",
+    "subtype_zh": "插件化释放",
+    "index": "001",
+    "behavior_tags": [
+      "B:DROP.PLUG",
+      "B:DROP.DYN",
+      "B:PER.BATT",
+      "B:PER.BOOT",
+      "B:EVA.OBFS",
+      "B:INST.PLUGIN"
+    ]
+  },
+  "149": {
+    "name-en": "RAT-C2-010",
+    "name-cn": "远程控制木马-C2指令控制-010",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "C2",
+    "subtype_zh": "C2指令控制",
+    "index": "010",
+    "behavior_tags": [
+      "B:RAT.C2",
+      "B:SPY.AUDIO",
+      "B:VPN.CTRL",
+      "B:DROP.DYN",
+      "B:LOADER.CORD",
+      "B:NET.CLEAR",
+      "B:NET.DYNAMIC"
+    ]
+  },
+  "150": {
+    "name-en": "SPY-SCREEN-002",
+    "name-cn": "间谍软件/监控-屏幕录制-002",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "SCREEN",
+    "subtype_zh": "屏幕录制",
+    "index": "002",
+    "behavior_tags": [
+      "B:SPY.SCREEN",
+      "B:PHISH.IM",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "151": {
+    "name-en": "RAT-PUSH-010",
+    "name-cn": "远程控制木马-推送指令-010",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "PUSH",
+    "subtype_zh": "推送指令",
+    "index": "010",
+    "behavior_tags": [
+      "B:RAT.PUSH",
+      "B:SPY.AUDIO",
+      "B:SPY.LOC",
+      "B:PHISH.OVER",
+      "B:ADWARE.PAY",
+      "B:ADWARE.PUSH"
+    ]
+  },
+  "152": {
+    "name-en": "STEAL-FULL-007",
+    "name-cn": "数据窃取器-全量数据窃取-007",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "FULL",
+    "subtype_zh": "全量数据窃取",
+    "index": "007",
+    "behavior_tags": [
+      "B:STEAL.FULL",
+      "B:STEAL.CONTACT",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB"
+    ]
+  },
+  "154": {
+    "name-en": "RAT-C2-011",
+    "name-cn": "远程控制木马-C2指令控制-011",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "C2",
+    "subtype_zh": "C2指令控制",
+    "index": "011",
+    "behavior_tags": [
+      "B:RAT.C2",
+      "B:PHISH.WEB",
+      "B:LOADER.CORD",
+      "B:LOADER.WEB",
+      "B:NET.DYNAMIC"
+    ]
+  },
+  "155": {
+    "name-en": "DROP-ADMIN-001",
+    "name-cn": "释放器/安装器-设备管理员防卸载-001",
+    "category": "DROP",
+    "category_zh": "释放器/安装器",
+    "subtype": "ADMIN",
+    "subtype_zh": "设备管理员防卸载",
+    "index": "001",
+    "behavior_tags": [
+      "B:DROP.ADMIN",
+      "B:EVA.DAMIN"
+    ]
+  },
+  "156": {
+    "name-en": "FINANCE-PAY-003",
+    "name-cn": "金融诈骗-虚假支付平台-003",
+    "category": "FINANCE",
+    "category_zh": "金融诈骗",
+    "subtype": "PAY",
+    "subtype_zh": "虚假支付平台",
+    "index": "003",
+    "behavior_tags": [
+      "B:FINANCE.PAY",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "157": {
+    "name-en": "STEAL-MEDIA-004",
+    "name-cn": "数据窃取器-媒体文件窃取-004",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "MEDIA",
+    "subtype_zh": "媒体文件窃取",
+    "index": "004",
+    "behavior_tags": [
+      "B:STEAL.MEDIA",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:SPY.LOC",
+      "B:SPY.SCREEN",
+      "B:PER.BOOT"
+    ]
+  },
+  "158": {
+    "name-en": "RAT-WEB-009",
+    "name-cn": "远程控制木马-WebView桥接-009",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "WEB",
+    "subtype_zh": "WebView桥接",
+    "index": "009",
+    "behavior_tags": [
+      "B:RAT.WEB",
+      "B:STEAL.MEDIA",
+      "B:PHISH.IM",
+      "B:PHISH.WEB",
+      "B:NET.MULTI_PUSH",
+      "B:EVA.OBFS"
+    ]
+  },
+  "159": {
+    "name-en": "RAT-WEB-010",
+    "name-cn": "远程控制木马-WebView桥接-010",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "WEB",
+    "subtype_zh": "WebView桥接",
+    "index": "010",
+    "behavior_tags": [
+      "B:RAT.WEB",
+      "B:RAT.PUSH",
+      "B:SPY.DEV",
+      "B:SPY.LOC",
+      "B:PHISH.WEB",
+      "B:DROP.DYN",
+      "B:LOADER.DCLOUD",
+      "B:LOADER.WEB"
+    ]
+  },
+  "160": {
+    "name-en": "STEAL-MEDIA-005",
+    "name-cn": "数据窃取器-媒体文件窃取-005",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "MEDIA",
+    "subtype_zh": "媒体文件窃取",
+    "index": "005",
+    "behavior_tags": [
+      "B:STEAL.MEDIA",
+      "B:PHISH.IM",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "162": {
+    "name-en": "SPY-AUDIO-006",
+    "name-cn": "间谍软件/监控-麦克风窃听-006",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "AUDIO",
+    "subtype_zh": "麦克风窃听",
+    "index": "006",
+    "behavior_tags": [
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:SPY.LOC",
+      "B:PHISH.IM",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB",
+      "B:PER.BOOT",
+      "B:PER.FG",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "163": {
+    "name-en": "PHISH-IM-001",
+    "name-cn": "网络钓鱼/社会工程-即时通讯钓鱼-001",
+    "category": "PHISH",
+    "category_zh": "网络钓鱼/社会工程",
+    "subtype": "IM",
+    "subtype_zh": "即时通讯钓鱼",
+    "index": "001",
+    "behavior_tags": [
+      "B:PHISH.IM"
+    ]
+  },
+  "164": {
+    "name-en": "RAT-FIRE-002",
+    "name-cn": "远程控制木马-Firebase控制-002",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "FIRE",
+    "subtype_zh": "Firebase控制",
+    "index": "002",
+    "behavior_tags": [
+      "B:RAT.FIRE",
+      "B:RAT.C2",
+      "B:RAT.PUSH",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:SPY.LOC",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB",
+      "B:PER.BOOT",
+      "B:PER.FG",
+      "B:NET.FIREBASE"
+    ]
+  },
+  "167": {
+    "name-en": "STEAL-MEDIA-006",
+    "name-cn": "数据窃取器-媒体文件窃取-006",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "MEDIA",
+    "subtype_zh": "媒体文件窃取",
+    "index": "006",
+    "behavior_tags": [
+      "B:STEAL.MEDIA",
+      "B:FINANCE.INVEST",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM"
+    ]
+  },
+  "168": {
+    "name-en": "FINANCE-PAY-004",
+    "name-cn": "金融诈骗-虚假支付平台-004",
+    "category": "FINANCE",
+    "category_zh": "金融诈骗",
+    "subtype": "PAY",
+    "subtype_zh": "虚假支付平台",
+    "index": "004",
+    "behavior_tags": [
+      "B:FINANCE.PAY",
+      "B:FINANCE.WEB",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "169": {
+    "name-en": "TELE-NFC-002",
+    "name-cn": "电话诈骗工具-NFC模拟-002",
+    "category": "TELE",
+    "category_zh": "电话诈骗工具",
+    "subtype": "NFC",
+    "subtype_zh": "NFC模拟",
+    "index": "002",
+    "behavior_tags": [
+      "B:TELE.NFC",
+      "B:PER.FG"
+    ]
+  },
+  "170": {
+    "name-en": "RAT-FIRE-003",
+    "name-cn": "远程控制木马-Firebase控制-003",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "FIRE",
+    "subtype_zh": "Firebase控制",
+    "index": "003",
+    "behavior_tags": [
+      "B:RAT.FIRE",
+      "B:PER.BOOT",
+      "B:PER.FG",
+      "B:NET.FIREBASE"
+    ]
+  },
+  "172": {
+    "name-en": "RAT-C2-012",
+    "name-cn": "远程控制木马-C2指令控制-012",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "C2",
+    "subtype_zh": "C2指令控制",
+    "index": "012",
+    "behavior_tags": [
+      "B:RAT.C2",
+      "B:RAT.PUSH",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:PHISH.OVER",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB"
+    ]
+  },
+  "173": {
+    "name-en": "RAT-WEB-011",
+    "name-cn": "远程控制木马-WebView桥接-011",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "WEB",
+    "subtype_zh": "WebView桥接",
+    "index": "011",
+    "behavior_tags": [
+      "B:RAT.WEB",
+      "B:RAT.PUSH",
+      "B:FINANCE.PAY",
+      "B:SPY.DEV",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "175": {
+    "name-en": "STEAL-CONTACT-002",
+    "name-cn": "数据窃取器-联系人窃取-002",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "CONTACT",
+    "subtype_zh": "联系人窃取",
+    "index": "002",
+    "behavior_tags": [
+      "B:STEAL.CONTACT",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM"
+    ]
+  },
+  "177": {
+    "name-en": "FINANCE-INVEST-001",
+    "name-cn": "金融诈骗-虚假投资-001",
+    "category": "FINANCE",
+    "category_zh": "金融诈骗",
+    "subtype": "INVEST",
+    "subtype_zh": "虚假投资",
+    "index": "001",
+    "behavior_tags": [
+      "B:FINANCE.INVEST",
+      "B:FINANCE.WEB",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB"
+    ]
+  },
+  "179": {
+    "name-en": "RAT-WEB-012",
+    "name-cn": "远程控制木马-WebView桥接-012",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "WEB",
+    "subtype_zh": "WebView桥接",
+    "index": "012",
+    "behavior_tags": [
+      "B:RAT.WEB",
+      "B:RAT.PUSH",
+      "B:SPY.CAM",
+      "B:SPY.LOC",
+      "B:PHISH.WEB",
+      "B:LOADER.DCLOUD",
+      "B:LOADER.WEB"
+    ]
+  },
+  "182": {
+    "name-en": "RAT-C2-013",
+    "name-cn": "远程控制木马-C2指令控制-013",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "C2",
+    "subtype_zh": "C2指令控制",
+    "index": "013",
+    "behavior_tags": [
+      "B:RAT.C2",
+      "B:RAT.PUSH",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:PHISH.OVER",
+      "B:PER.BOOT",
+      "B:PER.FG",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "183": {
+    "name-en": "PHISH-WEB-008",
+    "name-cn": "网络钓鱼/社会工程-网页钓鱼-008",
+    "category": "PHISH",
+    "category_zh": "网络钓鱼/社会工程",
+    "subtype": "WEB",
+    "subtype_zh": "网页钓鱼",
+    "index": "008",
+    "behavior_tags": [
+      "B:PHISH.WEB",
+      "B:PER.BOOT",
+      "B:PER.KEEPALIVE",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "184": {
+    "name-en": "PHISH-SOC-001",
+    "name-cn": "网络钓鱼/社会工程-社交工程-001",
+    "category": "PHISH",
+    "category_zh": "网络钓鱼/社会工程",
+    "subtype": "SOC",
+    "subtype_zh": "社交工程",
+    "index": "001",
+    "behavior_tags": [
+      "B:PHISH.SOC",
+      "B:PHISH.WEB",
+      "B:DROP.DYN"
+    ]
+  },
+  "185": {
+    "name-en": "RAT-WEB-013",
+    "name-cn": "远程控制木马-WebView桥接-013",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "WEB",
+    "subtype_zh": "WebView桥接",
+    "index": "013",
+    "behavior_tags": [
+      "B:RAT.WEB",
+      "B:RAT.PUSH",
+      "B:FINANCE.PAY",
+      "B:PHISH.WEB"
+    ]
+  },
+  "186": {
+    "name-en": "RAT-PUSH-011",
+    "name-cn": "远程控制木马-推送指令-011",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "PUSH",
+    "subtype_zh": "推送指令",
+    "index": "011",
+    "behavior_tags": [
+      "B:RAT.PUSH",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "188": {
+    "name-en": "MISC-SUSPECT-002",
+    "name-cn": "待定/其他-疑似恶意-002",
+    "category": "MISC",
+    "category_zh": "待定/其他",
+    "subtype": "SUSPECT",
+    "subtype_zh": "疑似恶意",
+    "index": "002",
+    "behavior_tags": [
+      "B:MISC.SUSPECT",
+      "B:NET.CLEAR"
+    ]
+  },
+  "189": {
+    "name-en": "SPY-AUDIO-007",
+    "name-cn": "间谍软件/监控-麦克风窃听-007",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "AUDIO",
+    "subtype_zh": "麦克风窃听",
+    "index": "007",
+    "behavior_tags": [
+      "B:SPY.AUDIO",
+      "B:SPY.DEV",
+      "B:NET.CLEAR"
+    ]
+  },
+  "190": {
+    "name-en": "RAT-WEB-014",
+    "name-cn": "远程控制木马-WebView桥接-014",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "WEB",
+    "subtype_zh": "WebView桥接",
+    "index": "014",
+    "behavior_tags": [
+      "B:RAT.WEB"
+    ]
+  },
+  "191": {
+    "name-en": "STEAL-FULL-008",
+    "name-cn": "数据窃取器-全量数据窃取-008",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "FULL",
+    "subtype_zh": "全量数据窃取",
+    "index": "008",
+    "behavior_tags": [
+      "B:STEAL.FULL",
+      "B:STEAL.MEDIA",
+      "B:SPY.LOC",
+      "B:PHISH.WEB"
+    ]
+  },
+  "193": {
+    "name-en": "RAT-PUSH-012",
+    "name-cn": "远程控制木马-推送指令-012",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "PUSH",
+    "subtype_zh": "推送指令",
+    "index": "012",
+    "behavior_tags": [
+      "B:RAT.PUSH",
+      "B:STEAL.FULL",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:SPY.DEV",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "194": {
+    "name-en": "MISC-UNKNOWN-001",
+    "name-cn": "待定/其他-无法判断-001",
+    "category": "MISC",
+    "category_zh": "待定/其他",
+    "subtype": "UNKNOWN",
+    "subtype_zh": "无法判断",
+    "index": "001",
+    "behavior_tags": [
+      "B:MISC.UNKNOWN"
+    ]
+  },
+  "198": {
+    "name-en": "RAT-WEB-015",
+    "name-cn": "远程控制木马-WebView桥接-015",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "WEB",
+    "subtype_zh": "WebView桥接",
+    "index": "015",
+    "behavior_tags": [
+      "B:RAT.WEB",
+      "B:RAT.PUSH",
+      "B:STEAL.MEDIA",
+      "B:SPY.AUDIO",
+      "B:PHISH.WEB",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "200": {
+    "name-en": "SPY-SCREEN-003",
+    "name-cn": "间谍软件/监控-屏幕录制-003",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "SCREEN",
+    "subtype_zh": "屏幕录制",
+    "index": "003",
+    "behavior_tags": [
+      "B:SPY.SCREEN"
+    ]
+  },
+  "201": {
+    "name-en": "STEAL-MEDIA-007",
+    "name-cn": "数据窃取器-媒体文件窃取-007",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "MEDIA",
+    "subtype_zh": "媒体文件窃取",
+    "index": "007",
+    "behavior_tags": [
+      "B:STEAL.MEDIA",
+      "B:SPY.CAM",
+      "B:PHISH.WEB"
+    ]
+  },
+  "203": {
+    "name-en": "SPY-LOC-002",
+    "name-cn": "间谍软件/监控-位置追踪-002",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "LOC",
+    "subtype_zh": "位置追踪",
+    "index": "002",
+    "behavior_tags": [
+      "B:SPY.LOC",
+      "B:SPY.DEV",
+      "B:PHISH.OVER"
+    ]
+  },
+  "205": {
+    "name-en": "RAT-C2-014",
+    "name-cn": "远程控制木马-C2指令控制-014",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "C2",
+    "subtype_zh": "C2指令控制",
+    "index": "014",
+    "behavior_tags": [
+      "B:RAT.C2",
+      "B:STEAL.CONTACT",
+      "B:STEAL.FULL",
+      "B:STEAL.SMS",
+      "B:SPY.DEV",
+      "B:NET.MQTT"
+    ]
+  },
+  "207": {
+    "name-en": "SPY-BIO-002",
+    "name-cn": "间谍软件/监控-生物识别监控-002",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "BIO",
+    "subtype_zh": "生物识别监控",
+    "index": "002",
+    "behavior_tags": [
+      "B:SPY.BIO",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:PHISH.WEB",
+      "B:DROP.DYN"
+    ]
+  },
+  "208": {
+    "name-en": "MISC-CLEAN-001",
+    "name-cn": "待定/其他-未发现恶意-001",
+    "category": "MISC",
+    "category_zh": "待定/其他",
+    "subtype": "CLEAN",
+    "subtype_zh": "未发现恶意",
+    "index": "001",
+    "behavior_tags": [
+      "B:MISC.CLEAN"
+    ]
+  },
+  "209": {
+    "name-en": "MISC-CLEAN-002",
+    "name-cn": "待定/其他-未发现恶意-002",
+    "category": "MISC",
+    "category_zh": "待定/其他",
+    "subtype": "CLEAN",
+    "subtype_zh": "未发现恶意",
+    "index": "002",
+    "behavior_tags": [
+      "B:MISC.CLEAN"
+    ]
+  },
+  "210": {
+    "name-en": "STEAL-CONTACT-003",
+    "name-cn": "数据窃取器-联系人窃取-003",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "CONTACT",
+    "subtype_zh": "联系人窃取",
+    "index": "003",
+    "behavior_tags": [
+      "B:STEAL.CONTACT",
+      "B:STEAL.MEDIA",
+      "B:SPY.LOC"
+    ]
+  },
+  "211": {
+    "name-en": "RAT-DESK-001",
+    "name-cn": "远程控制木马-桌面操控-001",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "DESK",
+    "subtype_zh": "桌面操控",
+    "index": "001",
+    "behavior_tags": [
+      "B:RAT.DESK",
+      "B:ADWARE.PAY",
+      "B:DROP.DYN"
+    ]
+  },
+  "213": {
+    "name-en": "SPY-CAM-002",
+    "name-cn": "间谍软件/监控-摄像头监控-002",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "CAM",
+    "subtype_zh": "摄像头监控",
+    "index": "002",
+    "behavior_tags": [
+      "B:SPY.CAM"
+    ]
+  },
+  "214": {
+    "name-en": "ADWARE-MULTI-001",
+    "name-cn": "恶意广告软件-多SDK广告-001",
+    "category": "ADWARE",
+    "category_zh": "恶意广告软件",
+    "subtype": "MULTI",
+    "subtype_zh": "多SDK广告",
+    "index": "001",
+    "behavior_tags": [
+      "B:ADWARE.MULTI",
+      "B:ADWARE.PUSH"
+    ]
+  },
+  "215": {
+    "name-en": "STEAL-SMS-005",
+    "name-cn": "数据窃取器-短信窃取-005",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "SMS",
+    "subtype_zh": "短信窃取",
+    "index": "005",
+    "behavior_tags": [
+      "B:STEAL.SMS",
+      "B:SPY.SCREEN"
+    ]
+  },
+  "216": {
+    "name-en": "STEAL-FULL-009",
+    "name-cn": "数据窃取器-全量数据窃取-009",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "FULL",
+    "subtype_zh": "全量数据窃取",
+    "index": "009",
+    "behavior_tags": [
+      "B:STEAL.FULL",
+      "B:STEAL.CONTACT",
+      "B:STEAL.SMS",
+      "B:SPY.AUDIO",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB",
+      "B:NET.CLEAR"
+    ]
+  },
+  "217": {
+    "name-en": "RAT-ACCESS-002",
+    "name-cn": "远程控制木马-无障碍控制-002",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "ACCESS",
+    "subtype_zh": "无障碍控制",
+    "index": "002",
+    "behavior_tags": [
+      "B:RAT.ACCESS",
+      "B:SPY.AUDIO",
+      "B:SPY.SCREEN",
+      "B:PER.BOOT",
+      "B:PER.FG",
+      "B:EVA.ICON"
+    ]
+  },
+  "218": {
+    "name-en": "RAT-C2-015",
+    "name-cn": "远程控制木马-C2指令控制-015",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "C2",
+    "subtype_zh": "C2指令控制",
+    "index": "015",
+    "behavior_tags": [
+      "B:RAT.C2",
+      "B:RAT.PUSH",
+      "B:STEAL.MEDIA"
+    ]
+  },
+  "219": {
+    "name-en": "MISC-CLEAN-003",
+    "name-cn": "待定/其他-未发现恶意-003",
+    "category": "MISC",
+    "category_zh": "待定/其他",
+    "subtype": "CLEAN",
+    "subtype_zh": "未发现恶意",
+    "index": "003",
+    "behavior_tags": [
+      "B:MISC.CLEAN"
+    ]
+  },
+  "220": {
+    "name-en": "PHISH-WEB-009",
+    "name-cn": "网络钓鱼/社会工程-网页钓鱼-009",
+    "category": "PHISH",
+    "category_zh": "网络钓鱼/社会工程",
+    "subtype": "WEB",
+    "subtype_zh": "网页钓鱼",
+    "index": "009",
+    "behavior_tags": [
+      "B:PHISH.WEB",
+      "B:ADWARE.PUSH",
+      "B:LOADER.WEB",
+      "B:PER.FG",
+      "B:NET.MULTI_PUSH",
+      "B:INST.SILENT"
+    ]
+  },
+  "221": {
+    "name-en": "RAT-C2-016",
+    "name-cn": "远程控制木马-C2指令控制-016",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "C2",
+    "subtype_zh": "C2指令控制",
+    "index": "016",
+    "behavior_tags": [
+      "B:RAT.C2",
+      "B:DROP.STLTH",
+      "B:PER.BOOT",
+      "B:PER.FG",
+      "B:EVA.OBFS",
+      "B:NET.WS"
+    ]
+  },
+  "224": {
+    "name-en": "FINANCE-PAY-005",
+    "name-cn": "金融诈骗-虚假支付平台-005",
+    "category": "FINANCE",
+    "category_zh": "金融诈骗",
+    "subtype": "PAY",
+    "subtype_zh": "虚假支付平台",
+    "index": "005",
+    "behavior_tags": [
+      "B:FINANCE.PAY",
+      "B:PHISH.GAME",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB",
+      "B:EVA.ANTI_VM"
+    ]
+  },
+  "226": {
+    "name-en": "SPY-DEV-003",
+    "name-cn": "间谍软件/监控-设备指纹采集-003",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "DEV",
+    "subtype_zh": "设备指纹采集",
+    "index": "003",
+    "behavior_tags": [
+      "B:SPY.DEV",
+      "B:PHISH.WEB",
+      "B:DROP.DYN",
+      "B:DROP.PLUG",
+      "B:PER.BOOT",
+      "B:PER.JOB",
+      "B:PER.KEEPALIVE",
+      "B:INST.PLUGIN",
+      "B:INST.SILENT"
+    ]
+  },
+  "227": {
+    "name-en": "DROP-ADMIN-002",
+    "name-cn": "释放器/安装器-设备管理员防卸载-002",
+    "category": "DROP",
+    "category_zh": "释放器/安装器",
+    "subtype": "ADMIN",
+    "subtype_zh": "设备管理员防卸载",
+    "index": "002",
+    "behavior_tags": [
+      "B:DROP.ADMIN",
+      "B:DROP.DYN",
+      "B:LOADER.CORD",
+      "B:EVA.DAMIN"
+    ]
+  },
+  "228": {
+    "name-en": "PHISH-WEB-010",
+    "name-cn": "网络钓鱼/社会工程-网页钓鱼-010",
+    "category": "PHISH",
+    "category_zh": "网络钓鱼/社会工程",
+    "subtype": "WEB",
+    "subtype_zh": "网页钓鱼",
+    "index": "010",
+    "behavior_tags": [
+      "B:PHISH.WEB",
+      "B:LOADER.WEB"
+    ]
+  },
+  "229": {
+    "name-en": "DROP-STLTH-002",
+    "name-cn": "释放器/安装器-隐蔽释放-002",
+    "category": "DROP",
+    "category_zh": "释放器/安装器",
+    "subtype": "STLTH",
+    "subtype_zh": "隐蔽释放",
+    "index": "002",
+    "behavior_tags": [
+      "B:DROP.STLTH",
+      "B:EVA.OBFS",
+      "B:EVA.PACK"
+    ]
+  },
+  "230": {
+    "name-en": "PHISH-WEB-011",
+    "name-cn": "网络钓鱼/社会工程-网页钓鱼-011",
+    "category": "PHISH",
+    "category_zh": "网络钓鱼/社会工程",
+    "subtype": "WEB",
+    "subtype_zh": "网页钓鱼",
+    "index": "011",
+    "behavior_tags": [
+      "B:PHISH.WEB",
+      "B:DROP.DYN",
+      "B:LOADER.WEB",
+      "B:INST.HOTFIX",
+      "B:NET.WS"
+    ]
+  },
+  "231": {
+    "name-en": "STEAL-FULL-010",
+    "name-cn": "数据窃取器-全量数据窃取-010",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "FULL",
+    "subtype_zh": "全量数据窃取",
+    "index": "010",
+    "behavior_tags": [
+      "B:STEAL.FULL",
+      "B:STEAL.CONTACT",
+      "B:STEAL.SMS",
+      "B:SPY.BIO",
+      "B:SPY.CAM"
+    ]
+  },
+  "232": {
+    "name-en": "RAT-ACCESS-003",
+    "name-cn": "远程控制木马-无障碍控制-003",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "ACCESS",
+    "subtype_zh": "无障碍控制",
+    "index": "003",
+    "behavior_tags": [
+      "B:RAT.ACCESS"
+    ]
+  },
+  "234": {
+    "name-en": "RAT-CALL-008",
+    "name-cn": "远程控制木马-通话劫持-008",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "CALL",
+    "subtype_zh": "通话劫持",
+    "index": "008",
+    "behavior_tags": [
+      "B:RAT.CALL",
+      "B:RAT.C2",
+      "B:RAT.FIRE",
+      "B:RAT.PUSH",
+      "B:STEAL.FULL",
+      "B:SPY.AUDIO",
+      "B:SPY.CALL",
+      "B:SPY.CAM",
+      "B:SPY.LOC",
+      "B:PER.BOOT",
+      "B:PER.FG",
+      "B:NET.FIREBASE",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "235": {
+    "name-en": "RAT-PUSH-013",
+    "name-cn": "远程控制木马-推送指令-013",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "PUSH",
+    "subtype_zh": "推送指令",
+    "index": "013",
+    "behavior_tags": [
+      "B:RAT.PUSH",
+      "B:STEAL.CONTACT",
+      "B:STEAL.SMS",
+      "B:SPY.BIO",
+      "B:PHISH.WEB"
+    ]
+  },
+  "236": {
+    "name-en": "STEAL-MEDIA-008",
+    "name-cn": "数据窃取器-媒体文件窃取-008",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "MEDIA",
+    "subtype_zh": "媒体文件窃取",
+    "index": "008",
+    "behavior_tags": [
+      "B:STEAL.MEDIA"
+    ]
+  },
+  "237": {
+    "name-en": "SPY-BIO-003",
+    "name-cn": "间谍软件/监控-生物识别监控-003",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "BIO",
+    "subtype_zh": "生物识别监控",
+    "index": "003",
+    "behavior_tags": [
+      "B:SPY.BIO",
+      "B:SPY.DEV",
+      "B:PHISH.FIN"
+    ]
+  },
+  "238": {
+    "name-en": "STEAL-FULL-011",
+    "name-cn": "数据窃取器-全量数据窃取-011",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "FULL",
+    "subtype_zh": "全量数据窃取",
+    "index": "011",
+    "behavior_tags": [
+      "B:STEAL.FULL",
+      "B:STEAL.CONTACT",
+      "B:STEAL.SMS",
+      "B:SPY.BIO"
+    ]
+  },
+  "239": {
+    "name-en": "DROP-PLUG-002",
+    "name-cn": "释放器/安装器-插件化释放-002",
+    "category": "DROP",
+    "category_zh": "释放器/安装器",
+    "subtype": "PLUG",
+    "subtype_zh": "插件化释放",
+    "index": "002",
+    "behavior_tags": [
+      "B:DROP.PLUG",
+      "B:NET.CLEAR",
+      "B:PER.JOB"
+    ]
+  },
+  "240": {
+    "name-en": "FINANCE-PAY-006",
+    "name-cn": "金融诈骗-虚假支付平台-006",
+    "category": "FINANCE",
+    "category_zh": "金融诈骗",
+    "subtype": "PAY",
+    "subtype_zh": "虚假支付平台",
+    "index": "006",
+    "behavior_tags": [
+      "B:FINANCE.PAY",
+      "B:PHISH.IM"
+    ]
+  },
+  "241": {
+    "name-en": "STEAL-SMS-006",
+    "name-cn": "数据窃取器-短信窃取-006",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "SMS",
+    "subtype_zh": "短信窃取",
+    "index": "006",
+    "behavior_tags": [
+      "B:STEAL.SMS",
+      "B:STEAL.CONTACT"
+    ]
+  },
+  "242": {
+    "name-en": "RAT-ACCESS-004",
+    "name-cn": "远程控制木马-无障碍控制-004",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "ACCESS",
+    "subtype_zh": "无障碍控制",
+    "index": "004",
+    "behavior_tags": [
+      "B:RAT.ACCESS",
+      "B:RAT.CALL",
+      "B:STEAL.CONTACT",
+      "B:STEAL.FULL",
+      "B:STEAL.KEY",
+      "B:STEAL.SMS",
+      "B:SPY.AUDIO",
+      "B:SPY.SCREEN",
+      "B:VPN.CTRL",
+      "B:VPN.DIALER",
+      "B:VPN.PROXY",
+      "B:PER.BATT",
+      "B:PER.BOOT",
+      "B:EVA.DAMIN",
+      "B:PER.FG"
+    ]
+  },
+  "244": {
+    "name-en": "DROP-DYN-001",
+    "name-cn": "释放器/安装器-动态代码加载-001",
+    "category": "DROP",
+    "category_zh": "释放器/安装器",
+    "subtype": "DYN",
+    "subtype_zh": "动态代码加载",
+    "index": "001",
+    "behavior_tags": [
+      "B:DROP.DYN"
+    ]
+  },
+  "246": {
+    "name-en": "RAT-FULL-001",
+    "name-cn": "远程控制木马-全面控制-001",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "FULL",
+    "subtype_zh": "全面控制",
+    "index": "001",
+    "behavior_tags": [
+      "B:RAT.FULL",
+      "B:RAT.C2",
+      "B:RAT.CALL",
+      "B:RAT.PUSH",
+      "B:STEAL.CONTACT",
+      "B:STEAL.SMS",
+      "B:SPY.LOC",
+      "B:PER.BOOT"
+    ]
+  },
+  "247": {
+    "name-en": "STEAL-MEDIA-009",
+    "name-cn": "数据窃取器-媒体文件窃取-009",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "MEDIA",
+    "subtype_zh": "媒体文件窃取",
+    "index": "009",
+    "behavior_tags": [
+      "B:STEAL.MEDIA",
+      "B:SPY.AUDIO",
+      "B:SPY.SCREEN",
+      "B:PHISH.IM",
+      "B:PHISH.OVER",
+      "B:PER.FG"
+    ]
+  },
+  "248": {
+    "name-en": "FINANCE-INVEST-002",
+    "name-cn": "金融诈骗-虚假投资-002",
+    "category": "FINANCE",
+    "category_zh": "金融诈骗",
+    "subtype": "INVEST",
+    "subtype_zh": "虚假投资",
+    "index": "002",
+    "behavior_tags": [
+      "B:FINANCE.INVEST",
+      "B:FINANCE.PAY",
+      "B:FINANCE.WEB",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:PHISH.WEB",
+      "B:DROP.DYN",
+      "B:LOADER.WEB"
+    ]
+  },
+  "250": {
+    "name-en": "RAT-DESK-002",
+    "name-cn": "远程控制木马-桌面操控-002",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "DESK",
+    "subtype_zh": "桌面操控",
+    "index": "002",
+    "behavior_tags": [
+      "B:RAT.DESK",
+      "B:ADWARE.MULTI",
+      "B:PER.BOOT"
+    ]
+  },
+  "251": {
+    "name-en": "PHISH-WEB-012",
+    "name-cn": "网络钓鱼/社会工程-网页钓鱼-012",
+    "category": "PHISH",
+    "category_zh": "网络钓鱼/社会工程",
+    "subtype": "WEB",
+    "subtype_zh": "网页钓鱼",
+    "index": "012",
+    "behavior_tags": [
+      "B:PHISH.WEB",
+      "B:DROP.DYN",
+      "B:LOADER.WEB"
+    ]
+  },
+  "252": {
+    "name-en": "MISC-CLEAN-004",
+    "name-cn": "待定/其他-未发现恶意-004",
+    "category": "MISC",
+    "category_zh": "待定/其他",
+    "subtype": "CLEAN",
+    "subtype_zh": "未发现恶意",
+    "index": "004",
+    "behavior_tags": [
+      "B:MISC.CLEAN"
+    ]
+  },
+  "253": {
+    "name-en": "RAT-C2-017",
+    "name-cn": "远程控制木马-C2指令控制-017",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "C2",
+    "subtype_zh": "C2指令控制",
+    "index": "017",
+    "behavior_tags": [
+      "B:RAT.C2",
+      "B:STEAL.CONTACT",
+      "B:STEAL.SMS"
+    ]
+  },
+  "254": {
+    "name-en": "MISC-CLEAN-005",
+    "name-cn": "待定/其他-未发现恶意-005",
+    "category": "MISC",
+    "category_zh": "待定/其他",
+    "subtype": "CLEAN",
+    "subtype_zh": "未发现恶意",
+    "index": "005",
+    "behavior_tags": [
+      "B:MISC.CLEAN"
+    ]
+  },
+  "255": {
+    "name-en": "RAT-WEB-016",
+    "name-cn": "远程控制木马-WebView桥接-016",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "WEB",
+    "subtype_zh": "WebView桥接",
+    "index": "016",
+    "behavior_tags": [
+      "B:RAT.WEB",
+      "B:RAT.PUSH",
+      "B:STEAL.MEDIA",
+      "B:PHISH.OVER",
+      "B:PHISH.WEB",
+      "B:DROP.DYN",
+      "B:PER.BOOT",
+      "B:PER.FG",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "256": {
+    "name-en": "FINANCE-PAY-007",
+    "name-cn": "金融诈骗-虚假支付平台-007",
+    "category": "FINANCE",
+    "category_zh": "金融诈骗",
+    "subtype": "PAY",
+    "subtype_zh": "虚假支付平台",
+    "index": "007",
+    "behavior_tags": [
+      "B:FINANCE.PAY",
+      "B:PHISH.SOC",
+      "B:ADWARE.PAY",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "257": {
+    "name-en": "STEAL-MEDIA-010",
+    "name-cn": "数据窃取器-媒体文件窃取-010",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "MEDIA",
+    "subtype_zh": "媒体文件窃取",
+    "index": "010",
+    "behavior_tags": [
+      "B:STEAL.MEDIA",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:PHISH.SOC",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB"
+    ]
+  },
+  "258": {
+    "name-en": "MISC-UNKNOWN-002",
+    "name-cn": "待定/其他-无法判断-002",
+    "category": "MISC",
+    "category_zh": "待定/其他",
+    "subtype": "UNKNOWN",
+    "subtype_zh": "无法判断",
+    "index": "002",
+    "behavior_tags": [
+      "B:MISC.UNKNOWN"
+    ]
+  },
+  "259": {
+    "name-en": "FINANCE-PAY-008",
+    "name-cn": "金融诈骗-虚假支付平台-008",
+    "category": "FINANCE",
+    "category_zh": "金融诈骗",
+    "subtype": "PAY",
+    "subtype_zh": "虚假支付平台",
+    "index": "008",
+    "behavior_tags": [
+      "B:FINANCE.PAY",
+      "B:ADULT.PORN"
+    ]
+  },
+  "260": {
+    "name-en": "RAT-PUSH-014",
+    "name-cn": "远程控制木马-推送指令-014",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "PUSH",
+    "subtype_zh": "推送指令",
+    "index": "014",
+    "behavior_tags": [
+      "B:RAT.PUSH",
+      "B:SPY.AUDIO",
+      "B:SPY.LOC"
+    ]
+  },
+  "261": {
+    "name-en": "TELE-NFC-003",
+    "name-cn": "电话诈骗工具-NFC模拟-003",
+    "category": "TELE",
+    "category_zh": "电话诈骗工具",
+    "subtype": "NFC",
+    "subtype_zh": "NFC模拟",
+    "index": "003",
+    "behavior_tags": [
+      "B:TELE.NFC",
+      "B:RAT.C2",
+      "B:RAT.FIRE",
+      "B:EVA.ANTI_VM",
+      "B:PER.FG",
+      "B:NET.FIREBASE",
+      "B:EVA.XPOSED"
+    ]
+  },
+  "262": {
+    "name-en": "VPN-DIALER-001",
+    "name-cn": "VPN流量劫持-拨号代码触发-001",
+    "category": "VPN",
+    "category_zh": "VPN流量劫持",
+    "subtype": "DIALER",
+    "subtype_zh": "拨号代码触发",
+    "index": "001",
+    "behavior_tags": [
+      "B:VPN.DIALER",
+      "B:VPN.PROXY",
+      "B:PER.BOOT"
+    ]
+  },
+  "263": {
+    "name-en": "MISC-CLEAN-006",
+    "name-cn": "待定/其他-未发现恶意-006",
+    "category": "MISC",
+    "category_zh": "待定/其他",
+    "subtype": "CLEAN",
+    "subtype_zh": "未发现恶意",
+    "index": "006",
+    "behavior_tags": [
+      "B:MISC.CLEAN"
+    ]
+  },
+  "264": {
+    "name-en": "FINANCE-PAY-009",
+    "name-cn": "金融诈骗-虚假支付平台-009",
+    "category": "FINANCE",
+    "category_zh": "金融诈骗",
+    "subtype": "PAY",
+    "subtype_zh": "虚假支付平台",
+    "index": "009",
+    "behavior_tags": [
+      "B:FINANCE.PAY",
+      "B:GAMBLE.CASINO",
+      "B:ADULT.PORN",
+      "B:SPY.LOC",
+      "B:EVA.ICON"
+    ]
+  },
+  "265": {
+    "name-en": "STEAL-FULL-012",
+    "name-cn": "数据窃取器-全量数据窃取-012",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "FULL",
+    "subtype_zh": "全量数据窃取",
+    "index": "012",
+    "behavior_tags": [
+      "B:STEAL.FULL",
+      "B:STEAL.DEV",
+      "B:SPY.CAM",
+      "B:SPY.DEV",
+      "B:PHISH.WEB",
+      "B:DROP.DYN",
+      "B:LOADER.WEB"
+    ]
+  },
+  "266": {
+    "name-en": "FINANCE-PAY-010",
+    "name-cn": "金融诈骗-虚假支付平台-010",
+    "category": "FINANCE",
+    "category_zh": "金融诈骗",
+    "subtype": "PAY",
+    "subtype_zh": "虚假支付平台",
+    "index": "010",
+    "behavior_tags": [
+      "B:FINANCE.PAY",
+      "B:GAMBLE.CASINO",
+      "B:GAMBLE.WEB",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB"
+    ]
+  },
+  "267": {
+    "name-en": "RAT-C2-018",
+    "name-cn": "远程控制木马-C2指令控制-018",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "C2",
+    "subtype_zh": "C2指令控制",
+    "index": "018",
+    "behavior_tags": [
+      "B:RAT.C2",
+      "B:SPY.CAM",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB"
+    ]
+  },
+  "268": {
+    "name-en": "RAT-ACCESS-005",
+    "name-cn": "远程控制木马-无障碍控制-005",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "ACCESS",
+    "subtype_zh": "无障碍控制",
+    "index": "005",
+    "behavior_tags": [
+      "B:RAT.ACCESS",
+      "B:RAT.FULL",
+      "B:STEAL.CONTACT",
+      "B:STEAL.SMS",
+      "B:SPY.AUDIO",
+      "B:SPY.SCREEN",
+      "B:PER.BATT",
+      "B:PER.BOOT",
+      "B:EVA.ICON"
+    ]
+  },
+  "269": {
+    "name-en": "SPY-LOC-003",
+    "name-cn": "间谍软件/监控-位置追踪-003",
+    "category": "SPY",
+    "category_zh": "间谍软件/监控",
+    "subtype": "LOC",
+    "subtype_zh": "位置追踪",
+    "index": "003",
+    "behavior_tags": [
+      "B:SPY.LOC",
+      "B:PHISH.WEB",
+      "B:VPN.PROXY",
+      "B:DROP.DYN",
+      "B:INST.HOTFIX"
+    ]
+  },
+  "270": {
+    "name-en": "RAT-PUSH-015",
+    "name-cn": "远程控制木马-推送指令-015",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "PUSH",
+    "subtype_zh": "推送指令",
+    "index": "015",
+    "behavior_tags": [
+      "B:RAT.PUSH"
+    ]
+  },
+  "271": {
+    "name-en": "DROP-DYN-002",
+    "name-cn": "释放器/安装器-动态代码加载-002",
+    "category": "DROP",
+    "category_zh": "释放器/安装器",
+    "subtype": "DYN",
+    "subtype_zh": "动态代码加载",
+    "index": "002",
+    "behavior_tags": [
+      "B:DROP.DYN",
+      "B:NET.MULTI_PUSH"
+    ]
+  },
+  "272": {
+    "name-en": "MISC-CLEAN-007",
+    "name-cn": "待定/其他-未发现恶意-007",
+    "category": "MISC",
+    "category_zh": "待定/其他",
+    "subtype": "CLEAN",
+    "subtype_zh": "未发现恶意",
+    "index": "007",
+    "behavior_tags": [
+      "B:MISC.CLEAN"
+    ]
+  },
+  "273": {
+    "name-en": "RAT-PUSH-016",
+    "name-cn": "远程控制木马-推送指令-016",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "PUSH",
+    "subtype_zh": "推送指令",
+    "index": "016",
+    "behavior_tags": [
+      "B:RAT.PUSH",
+      "B:SPY.AUDIO",
+      "B:SPY.CAM",
+      "B:SPY.LOC",
+      "B:PHISH.FIN",
+      "B:PHISH.SOC",
+      "B:PHISH.WEB",
+      "B:LOADER.WEB"
+    ]
+  },
+  "274": {
+    "name-en": "MISC-CLEAN-008",
+    "name-cn": "待定/其他-未发现恶意-008",
+    "category": "MISC",
+    "category_zh": "待定/其他",
+    "subtype": "CLEAN",
+    "subtype_zh": "未发现恶意",
+    "index": "008",
+    "behavior_tags": [
+      "B:MISC.CLEAN"
+    ]
+  },
+  "275": {
+    "name-en": "RAT-C2-019",
+    "name-cn": "远程控制木马-C2指令控制-019",
+    "category": "RAT",
+    "category_zh": "远程控制木马",
+    "subtype": "C2",
+    "subtype_zh": "C2指令控制",
+    "index": "019",
+    "behavior_tags": [
+      "B:RAT.C2",
+      "B:RAT.PUSH",
+      "B:FINANCE.PAY",
+      "B:PHISH.GAME"
+    ]
+  },
+  "276": {
+    "name-en": "PHISH-OVER-002",
+    "name-cn": "网络钓鱼/社会工程-界面覆盖攻击-002",
+    "category": "PHISH",
+    "category_zh": "网络钓鱼/社会工程",
+    "subtype": "OVER",
+    "subtype_zh": "界面覆盖攻击",
+    "index": "002",
+    "behavior_tags": [
+      "B:PHISH.OVER",
+      "B:PHISH.FIN",
+      "B:DROP.STLTH",
+      "B:EVA.OBFS"
+    ]
+  },
+  "277": {
+    "name-en": "STEAL-FULL-013",
+    "name-cn": "数据窃取器-全量数据窃取-013",
+    "category": "STEAL",
+    "category_zh": "数据窃取器",
+    "subtype": "FULL",
+    "subtype_zh": "全量数据窃取",
+    "index": "013",
+    "behavior_tags": [
+      "B:STEAL.FULL",
+      "B:STEAL.CONTACT",
+      "B:STEAL.SMS",
+      "B:SPY.CAM"
+    ]
+  }
+}
